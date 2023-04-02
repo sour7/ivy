@@ -2,7 +2,7 @@ import express, { json }  from "express";
 import dotenv from "dotenv"
 import mongoose from "mongoose";
 import courseRoute from "./routes/course.js"
-
+import cors from "cors" // Import cors package
 const app= express();
 dotenv.config()
 
@@ -32,6 +32,7 @@ app.get("/", (req, res)=>{
 })
 
 // middleware
+app.use(cors()); 
 app.use(express.json())
 
 app.use(express.json())
