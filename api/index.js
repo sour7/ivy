@@ -7,11 +7,11 @@ const app= express();
 dotenv.config()
 
 
-const PORT=process.env.PORT
+const PORT=8000
 
   const connect=async()=>{
    try {
-   await mongoose.connect(process.env.MONGO_URI)
+   await mongoose.connect("mongodb+srv://sourabh:wBxtA5RCoiNOL0lD@cluster0.fvcwvyb.mongodb.net/ivy?retryWrites=true&w=majority")
     console.log("connected to db")
    } catch (error) {
     console.log(error.codeName)
