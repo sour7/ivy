@@ -1,0 +1,43 @@
+.feautre{
+  
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+   
+
+}
+.card{
+    /* border: 2px solid red; */
+    width: max-content;
+    margin: 5px;
+   
+    
+}
+
+.icon{
+    
+    width: 250px;
+    height: 125px;
+    position: relative;
+    z-index: 9;
+}
+.iconlogo{
+    width: 250px;
+}
+
+.deatils{
+    
+    padding: 0 10px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    height: 80px;
+    text-align: center;
+  
+ width: 250px;
+ /* border: 2px solid red; */
+ box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+   
+}

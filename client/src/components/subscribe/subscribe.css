@@ -1,0 +1,96 @@
+.subscribe{
+   margin-top: 40px;
+}
+.dicscuss>h3{
+font-size: 30px;
+text-align: center;
+color: rgb(35, 35, 35);
+}
+
+.bookaSlot{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 20px;
+    padding: 60px 0;
+}
+.slot{
+ 
+    background-color: rgb(187, 106, 0);
+    color: white;
+    padding: 20px 30px;
+    font-weight: 600;
+}
+.slot:hover{
+    background-color: rgb(67, 67, 67);
+    text-decoration: underline;
+}
+
+.callUs{
+    color:rgb(231, 131, 0);
+    font-size: 18px;
+    font-weight: 550;
+}
+.calno{
+    color:rgb(67, 67, 67);
+    font-size: 18px;
+    font-weight: 550;
+    text-decoration: none;
+}
+.calno:hover{
+
+    text-decoration: underline;
+}
+
+.image-container {
+    position: relative;
+    background-image: url('https://plus.unsplash.com/premium_photo-1661772793835-fd1a613e6d2e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fG9mZmljZSUyMHRhbGt8ZW58MHx8MHx8&w=1000&q=80');
+    background-size: cover;
+    height: 500px;
+  }
+
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.833);
+  }
+  
+  .text {
+    position: absolute;
+    color: white;
+    /* border: 2px solid red; */
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+
+  .number{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+  }
+
+  .info{
+    padding-top: 200px;
+    text-align: center;
+  }
+  .blogbtn{
+    padding-top: 80px;
+    text-align: center;
+  
+  }
+  .btn1{
+    background-color: rgb(231, 131, 0);
+    padding: 20px 40px;
+    color: white;
+    font-weight: 500;
+    font-size:16px;
+  }
