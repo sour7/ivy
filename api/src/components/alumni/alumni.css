@@ -1,0 +1,33 @@
+
+.alumniText{
+    font-size: 32px;
+    text-align: center;
+    color: rgb(77, 77, 77);
+    padding-bottom: 20px;
+}
+.alumniCrousel{
+    width: 74%;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.videoStories{
+    /* border: 2px solid teal; */
+    width: 74%;
+    display: flex;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.successStories{
+  width: 50%;
+ 
+}
+.story{
+    font-size: 45px;
+    color: rgb(77, 77, 77);
+    /* border: 2px solid red; */
+    margin-top: 20px;
+}
+.videoCrousel{
+    width: 50%;
+}

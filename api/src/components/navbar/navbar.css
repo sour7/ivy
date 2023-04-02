@@ -1,0 +1,112 @@
+.navber{
+
+}
+.topbar{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    padding: 10px  0;
+    color: gray;
+border-bottom: 1px solid rgb(186, 183, 183);
+}
+
+.emptyDiv{
+    width: 100px;
+    border-right: 1px solid rgb(186, 183, 183);
+}
+
+.topphone{
+    width: 350px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgb(186, 183, 183);
+}
+
+.topemail>a{
+    display: flex;   
+justify-content: center;
+align-items: center;
+gap: 5px;
+border-right: 1px solid rgb(186, 183, 183);
+padding-right: 10px;
+  
+}
+
+.toplocation{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgb(186, 183, 183);
+    cursor: pointer;
+    
+}
+.toplocation:hover,.topemail:hover,.topphone:hover{
+    text-decoration: underline;
+}
+
+.mainNav{
+display: flex;
+justify-content: center;
+/* border: 2px solid red; */
+padding: 10px 0;
+gap:40px;
+position: relative
+}
+.logos{
+    display: flex;
+}
+.menu{
+    /* border: 2px solid teal; */
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 140, 255);
+  
+
+}
+
+.menu>div:hover{
+    cursor: pointer;
+   border-bottom: 3px solid rgb(0, 140, 255); 
+}
+.custom-select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.contectBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-left: 130px;
+}
+
+.enquire{
+      border: none;
+      background-color: rgb(255, 162, 0);
+      color: white;
+      padding: 15px 10px;
+      border-radius: 5px;
+      font-weight: 500;
+
+}
+
+.course-option{
+position: absolute;
+z-index: 99;
+background-color: white;
+
+left: 40%;
+}
+.navCourse{
+    border: 1px solid rgb(147, 146, 146);
+    padding: 10px 15px;
+}
